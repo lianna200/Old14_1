@@ -4,7 +4,6 @@ class Database {
     private static $username = 'al224';
     private static $password = 'wSt5Tjc0';
     private static $db;
-    
     private function __construct() {}
 
     public static function getDB () {
