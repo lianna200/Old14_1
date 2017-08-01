@@ -1,9 +1,9 @@
 <?php
-require('../database.php');
-require('../category.php');
-require('../category_db.php');
-require('../product.php');
-require('../product_db.php');
+require('../model/database.php');
+require('../model/category.php');
+require('../model/category_db.php');
+require('../model/product.php');
+require('../model/product_db.php');
 
 $action = filter_input(INPUT_POST, 'action');
 if ($action == NULL) {
